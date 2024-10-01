@@ -1,0 +1,1 @@
+jQuery(document).ready((function(c){c(".wp-block-wpopus-header-search svg").on("click",(function(){c(".st-search-form").addClass("search-open"),c(".st-search-form input.search-field").focus()}));var o=!0;c(".st-search-form form").hover((function(){o=!1}),(function(){o=!0})),c(".st-search-form").on("click",(function(){o&&c(this).toggleClass("search-open")}))}));

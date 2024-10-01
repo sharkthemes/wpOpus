@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "wpopus/icon-text",
+	"version": "1.0.0",
+	"title": "Icon Text",
+	"category": "wpopus",
+	"icon": "paperclip",
+	"description": "Add Icon and Text inline",
+	"example": {},
+	"supports": {
+		"html": false,
+		"color": {
+            "background": true,
+			"gradients": true
+        },
+		"spacing": {
+			"margin": true, 
+        	"padding": true
+		},
+		"align": true
+	},
+	"attributes": {
+		"clickCount":{
+			"type": "number",
+			"default": 0
+		}
+	},
+	"textdomain": "wpopus",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

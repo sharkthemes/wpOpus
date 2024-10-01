@@ -1,0 +1,262 @@
+/* custom control label */
+.inspector-control-label {
+	font-size: 11px;
+    font-weight: 500;
+    line-height: 2.4;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    max-width: 100%;
+    z-index: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* custom multiple select */
+.inspector-multiple-select select {
+    padding: 10px !important;
+}
+.inspector-multiple-select option {
+    padding: 5px 10px;
+}
+
+/* panel body inside panel body */
+.components-panel__body.inner-panel-body .components-panel__body-toggle.components-button .components-panel__arrow,
+.components-panel__body.inner-panel-body .components-panel__body-toggle.components-button,
+.components-panel__body.inner-panel-body > .components-panel__body-title:hover {
+    background-color:#eeeeee;
+}
+.components-panel__body.inner-panel-body .components-panel__body-toggle.components-button {
+    border-bottom: 1px solid rgba(255,255,255,0.9);
+}
+.inner-tab-panel .components-tab-panel__tabs {
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+.wpopus-help {
+    font-size: 13px;
+    color: #007cba;
+    background-color: #eeeeee;
+    padding: 12px;
+    border-radius: 2px;
+}
+
+/* media control */
+img.wpopus-image-control {
+    width: 100%;
+    cursor: pointer;
+}
+
+/* color palette */
+.wpopus-color-palette .components-color-palette__custom-color-wrapper {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    justify-content: flex-start;
+}
+.wpopus-color-palette .components-color-palette__custom-color-wrapper .components-color-palette__custom-color-button {
+    width: 50px;
+    height: 50px;
+}
+.wpopus-color-palette .components-color-palette__custom-color-wrapper .components-color-palette__custom-color-text-wrapper {
+    box-shadow: none;
+    padding: 0 15px;
+    line-height: 1.3;
+}
+
+/* popover */
+.wpopus-popover .components-popover__content {
+    padding: 20px 10px;
+    min-width: 250px;
+}
+
+/* general */
+.block-editor-block-inspector .components-panel__body {
+    margin-top: 0;
+}
+.wpopus-pattern-importer {
+    margin-left: 15px;
+    background-color: #007cba;
+}
+
+/* template container */
+.wpopus-loading-templates {
+    margin-left: 25px;
+}
+.components-modal__frame.wpopus-templates {
+    max-width: 90%;
+    width: 1400px;
+    height: 70%;
+}
+.components-modal__frame.wpopus-templates .components-modal__content {
+    padding: 0;
+}
+.wpopus-templates .components-modal__header {
+    padding: 25px;
+    background-color: #007cba;
+    color: #ffffff;
+}
+.wpopus-templates .components-button,
+.wpopus-templates .components-modal__header-heading {
+    fill: #ffffff;
+    color: #ffffff;
+}
+.wpopus-template-listing-wrapper {
+    width: 100%;
+}
+.wpopus-template-showcase {
+    width: 100%;
+    display: flex;
+}
+.wpopus-category-list-wrapper {
+    width: 20%;
+    min-height: 600px;
+    padding: 0 5px;
+    background-color: #f5f5f5;
+}
+.wpopus-category-list-wrapper ul.category-list {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;
+}
+.wpopus-category-list-wrapper ul.category-list li {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 12px 20px;
+    margin: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+.wpopus-category-list-wrapper ul.category-list li.active {
+    background-color: #007cba;
+    color: #ffffff;
+}
+.wpopus-patterns-container {
+    width: 80%;
+    padding: 25px;
+    text-align: center;
+}
+.wpopus-patterns-wrapper ul li .template-item-wrapper {
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    padding: 5px;
+}
+.wpopus-patterns-wrapper ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.wpopus-patterns-wrapper ul li {
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+.wpopus-patterns-wrapper ul li img {
+    width: 100%;
+    border-radius: 5px;
+}
+.wpopus-patterns-wrapper ul li h4 {
+    margin: 0;
+    font-size: 16px;
+    text-align: left;
+}
+.wpopus-patterns-wrapper .template-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+}
+.wpopus-patterns-wrapper .template-details .template-meta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wpopus-patterns-wrapper .template-details .template-meta a {
+    margin-left: 5px;
+}
+.wpopus-patterns-wrapper ul li.premium::before,
+.wpopus-patterns-wrapper ul li.pro::before {
+    content: 'Pro';
+    position: absolute;
+    background-color: #f53031;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    top: 30px;
+    right: 30px;
+}
+
+.wpopus-patterns-wrapper ul li::before,
+.wpopus-patterns-wrapper ul li.free::before {
+    content: 'Free';
+    position: absolute;
+    background-color: #18af75;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    top: 30px;
+    right: 30px;
+}
+.wpopus-templates.pro .wpopus-patterns-wrapper ul li::before {
+    content: none;
+}
+.wpopus-template-main-filter {
+    width: 100%;
+    height: 80px;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eeeeee;
+    box-shadow: 0px 0px 10px 0px #999999;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.wpopus-template-main-filter .template-types,
+.wpopus-template-main-filter .template-version {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    }
+.wpopus-template-main-filter .template-version {
+    justify-content: flex-end;
+}
+.wpopus-template-main-filter ul li {
+    font-size: 15px;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.wpopus-template-main-filter ul li.active {
+    background-color: #007cba;
+    color: #ffffff;
+}
+.components-toolbar__control.components-button.is-primary {
+    height: 100%;
+}
+.wpopus-favourite-svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    cursor: pointer;
+}
+.wpopus-favourite-svg svg{
+    height: 22px;
+    width: 22px;
+    fill: #ffffff;
+}
+.wpopus-favourite-svg.fav svg,
+.wpopus-favourite-svg:hover svg {
+    fill: #ff0a0a;
+}

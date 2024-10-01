@@ -1,0 +1,1141 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: wpOpus 1.0.0\n"
+"POT-Creation-Date: 2024-08-14 02:03+0545\n"
+"PO-Revision-Date: 2020-07-21 14:18+0545\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;transate_nooped_plural;"
+"esc_html__;esc_html_e;esc_html_x;esc_attr__;esc_attr_e;esc_attr_x;"
+"number_format_i18n;date_i18n\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: blocks/node_modules\n"
+
+#: blocks/build/accordion/index.js:1 blocks/build/advanced-slider/index.js:1
+#: blocks/build/progress-bars/index.js:1 blocks/src/utils/appender.js:21
+msgid "Add Item"
+msgstr ""
+
+#: blocks/src/accordion-item/edit.js:19
+msgid "Accordion Title"
+msgstr ""
+
+#: blocks/src/accordion-item/edit.js:38
+msgid "Accordion Description"
+msgstr ""
+
+#: blocks/src/admin/demo-import/import.js:68
+#: blocks/src/admin/demo-import/index.js:95
+#: blocks/src/admin/settings/backtotop.js:109
+#: blocks/src/admin/settings/preloader.js:86
+#: blocks/src/component/pattern-importer/index.js:88
+#: blocks/src/component/pattern-importer/index.js:220
+msgid "Invalid response format"
+msgstr ""
+
+#: blocks/src/admin/demo-import/import.js:75
+#: include/demo-import/demo-import.php:198
+msgid "No demo data found"
+msgstr ""
+
+#: blocks/src/admin/demo-import/import.js:78
+#: blocks/src/admin/demo-import/index.js:105
+msgid "Error fetching demo routes:"
+msgstr ""
+
+#: blocks/src/admin/demo-import/import.js:98
+msgid "Preparing Demo Data"
+msgstr ""
+
+#: blocks/src/admin/demo-import/import.js:102
+msgid "Demo Data Prepared"
+msgstr ""
+
+#: blocks/src/admin/demo-import/index.js:44
+msgid "Failed to check demo."
+msgstr ""
+
+#: blocks/src/admin/demo-import/index.js:102
+msgid "No demo routes found"
+msgstr ""
+
+#: blocks/src/admin/demo-import/index.js:128
+msgid "This demo has already been imported"
+msgstr ""
+
+#: blocks/src/admin/demo-import/index.js:155
+msgid "Loading Demo"
+msgstr ""
+
+#: blocks/src/admin/demo-import/insert-demo.js:43
+msgid "Error importing demo data:"
+msgstr ""
+
+#: blocks/src/admin/demo-import/insert-demo.js:62
+msgid "Importing demo data"
+msgstr ""
+
+#: blocks/src/admin/demo-import/insert-demo.js:65
+msgid "Importing required plugin"
+msgstr ""
+
+#: blocks/src/admin/demo-import/insert-demo.js:71
+msgid "Demo data imported"
+msgstr ""
+
+#: blocks/src/admin/demo-import/insert-demo.js:74
+msgid "Required plugins installed"
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:116
+#: blocks/src/admin/settings/preloader.js:93
+#: blocks/src/component/pattern-importer/index.js:227
+msgid "An error occurred while fetching options"
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:152
+#: blocks/src/admin/settings/preloader.js:129
+msgid "Failed to save option"
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:160
+#: blocks/src/admin/settings/preloader.js:137
+#: blocks/src/component/pattern-importer/index.js:257
+msgid "An error occurred while saving option"
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:168
+#: blocks/src/admin/settings/preloader.js:145
+msgid "Select or Upload Media"
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:170
+#: blocks/src/admin/settings/preloader.js:147
+msgid "Use this media"
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:189
+#: blocks/src/admin/settings/preloader.js:166
+msgid "Loading Settings"
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:194
+#: blocks/src/admin/settings/preloader.js:171
+msgid "Error fetching settings:"
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:199
+#: blocks/src/admin/settings/preloader.js:176
+msgid "Saving setting"
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:204
+#: blocks/src/admin/settings/preloader.js:181
+msgid "Settings saved successfully!"
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:213
+msgid "Enable Back to Top"
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:219
+#: blocks/src/admin/settings/preloader.js:196
+msgid "Enabled"
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:220
+#: blocks/src/admin/settings/preloader.js:197
+msgid "Disabled"
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:232
+#: blocks/src/admin/settings/preloader.js:209
+msgid "Select Image"
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:234
+msgid "Note: Transparent PNG Image Recommended."
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:240
+#: blocks/src/admin/settings/preloader.js:213
+msgid "Click Here"
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:243
+msgid ""
+"to get icons for back to top. Make sure you download icon in PNG format."
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:252
+#: blocks/src/admin/settings/preloader.js:222
+msgid "Upload Image"
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:266
+#: blocks/src/admin/settings/preloader.js:236
+msgid "Image Width (px)"
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:283
+msgid "Padding (px)"
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:300
+#: blocks/src/admin/settings/preloader.js:253
+msgid "Background Color"
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:317
+msgid "Border"
+msgstr ""
+
+#: blocks/src/admin/settings/backtotop.js:331
+msgid "Border Radius (px)"
+msgstr ""
+
+#: blocks/src/admin/settings/index.js:16
+msgid "Welcome"
+msgstr ""
+
+#: blocks/src/admin/settings/index.js:21
+msgid "PreLoader"
+msgstr ""
+
+#: blocks/src/admin/settings/index.js:26
+msgid "Back to Top"
+msgstr ""
+
+#: blocks/src/admin/settings/preloader.js:190
+msgid "Enable PreLoader"
+msgstr ""
+
+#: blocks/src/admin/settings/preloader.js:211
+msgid "Note: Transparent GIF Image Recommended."
+msgstr ""
+
+#: blocks/src/admin/settings/preloader.js:215
+msgid "to get GIF preloader images."
+msgstr ""
+
+#: blocks/src/admin/settings/welcome.js:7
+msgid "Welcome to wpOpus Plugin!"
+msgstr ""
+
+#: blocks/src/admin/settings/welcome.js:10
+msgid ""
+"Supercharge your WordPress site with our powerful collection of Gutenberg "
+"blocks and features (Limited in Free Version & Full Access in Pro "
+"Version):"
+msgstr ""
+
+#: blocks/src/admin/settings/welcome.js:16
+msgid "24+ Advanced Custom Gutenberg blocks"
+msgstr ""
+
+#: blocks/src/admin/settings/welcome.js:17
+msgid "Import pre-built templates"
+msgstr ""
+
+#: blocks/src/admin/settings/welcome.js:18
+msgid "One click demo importer for quick setup"
+msgstr ""
+
+#: blocks/src/admin/settings/welcome.js:19
+msgid "Text to speech for Audio Content"
+msgstr ""
+
+#: blocks/src/admin/settings/welcome.js:20
+msgid "Unlimited Google Fonts integration"
+msgstr ""
+
+#: blocks/src/admin/settings/welcome.js:21
+msgid "1300+ aesthetic icons"
+msgstr ""
+
+#: blocks/src/admin/settings/welcome.js:22
+msgid "Eye-catching animations"
+msgstr ""
+
+#: blocks/src/admin/settings/welcome.js:23
+msgid "Smooth hover effects"
+msgstr ""
+
+#: blocks/src/admin/settings/welcome.js:24
+msgid "Responsive visibility options"
+msgstr ""
+
+#: blocks/src/admin/settings/welcome.js:25
+msgid "Infinite Scroll & Load More for Query Posts Block"
+msgstr ""
+
+#: blocks/src/admin/settings/welcome.js:26
+msgid "Masonry layout for Query Posts and Advanced Gallery Blocks"
+msgstr ""
+
+#: blocks/src/admin/settings/welcome.js:31
+msgid ""
+"wpOpus gives you the tools to create stunning, dynamic websites with "
+"ease. Whether you're a beginner or an experienced developer, our "
+"intuitive blocks and flexible options will help you bring your vision to "
+"life. Dive in and start exploring the possibilities today!"
+msgstr ""
+
+#: blocks/src/admin/settings/welcome.js:37
+msgid ""
+"Need more details on any feature? Let us know, and we would be happy to "
+"elaborate."
+msgstr ""
+
+#: blocks/src/admin/settings/welcome.js:44
+msgid "Visit wpOpus Site"
+msgstr ""
+
+#: blocks/src/admin/settings/welcome.js:47
+msgid "Documentation"
+msgstr ""
+
+#: blocks/src/admin/settings/welcome.js:50
+msgid "Support"
+msgstr ""
+
+#: blocks/src/advanced-button/edit.js:98 blocks/src/icon-picker/edit.js:119
+#: blocks/src/icon/edit.js:100
+msgid "Icon Settings"
+msgstr ""
+
+#: blocks/src/advanced-button/edit.js:99 blocks/src/icon-picker/edit.js:122
+#: blocks/src/icon/edit.js:103
+msgid "Error Fetching Icons:"
+msgstr ""
+
+#: blocks/src/advanced-button/edit.js:104 blocks/src/icon-picker/edit.js:129
+#: blocks/src/icon/edit.js:110
+msgid "Select Icon"
+msgstr ""
+
+#: blocks/src/advanced-button/edit.js:114 blocks/src/icon-picker/edit.js:139
+#: blocks/src/icon/edit.js:120
+msgid "Search Icon"
+msgstr ""
+
+#: blocks/src/advanced-button/edit.js:136 blocks/src/icon-picker/edit.js:163
+#: blocks/src/icon/edit.js:144
+msgid "All"
+msgstr ""
+
+#: blocks/src/advanced-button/edit.js:137 blocks/src/icon-picker/edit.js:167
+#: blocks/src/icon/edit.js:148 blocks/src/star-rating/edit.js:67
+msgid "Outline"
+msgstr ""
+
+#: blocks/src/advanced-button/edit.js:138 blocks/src/icon-picker/edit.js:171
+#: blocks/src/icon/edit.js:152
+msgid "Sharp"
+msgstr ""
+
+#: blocks/src/advanced-button/edit.js:139 blocks/src/icon-picker/edit.js:175
+#: blocks/src/icon/edit.js:156 blocks/src/star-rating/edit.js:66
+msgid "Filled"
+msgstr ""
+
+#: blocks/src/advanced-button/edit.js:144 blocks/src/icon-picker/edit.js:182
+#: blocks/src/icon/edit.js:163
+msgid "Loading Icons"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:33
+#: blocks/src/dynamic-slider/controls.js:36
+msgid "Slide Settings"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:36
+#: blocks/src/dynamic-slider/controls.js:40
+msgid "Slide Transition Time"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:54
+#: blocks/src/dynamic-slider/controls.js:58
+msgid "Auto Play"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:67
+#: blocks/src/dynamic-slider/controls.js:71
+msgid "Auto Play Delay in Seconds"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:85
+#: blocks/src/dynamic-slider/controls.js:123
+msgid "Pagination Settings"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:90
+#: blocks/src/dynamic-slider/controls.js:128
+msgid "Enable Pagination"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:103
+msgid "Pagination Type"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:105
+msgid ""
+"Note: To see the change please disable pagination and enable it again."
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:116
+msgid "Bullets"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:120
+msgid "Fraction"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:130
+#: blocks/src/dynamic-slider/controls.js:141
+msgid "Dots Size"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:149
+#: blocks/src/dynamic-slider/controls.js:160
+msgid "Dots Border"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:166
+#: blocks/src/dynamic-slider/query-controls.js:361
+#: blocks/src/dynamic-slider/query-controls.js:462
+#: blocks/src/dynamic-slider/query-controls.js:583
+msgid "Font Size"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:188
+#: blocks/src/dynamic-slider/query-controls.js:383
+#: blocks/src/dynamic-slider/query-controls.js:484
+#: blocks/src/dynamic-slider/query-controls.js:605
+msgid "Font Weight"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:192
+#: blocks/src/dynamic-slider/query-controls.js:387
+#: blocks/src/dynamic-slider/query-controls.js:488
+#: blocks/src/dynamic-slider/query-controls.js:609
+msgid "Thin"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:193
+#: blocks/src/dynamic-slider/query-controls.js:389
+#: blocks/src/dynamic-slider/query-controls.js:490
+#: blocks/src/dynamic-slider/query-controls.js:611
+msgid "Extra Light"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:194
+#: blocks/src/dynamic-slider/query-controls.js:393
+#: blocks/src/dynamic-slider/query-controls.js:494
+#: blocks/src/dynamic-slider/query-controls.js:615
+msgid "Light"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:195
+#: blocks/src/dynamic-slider/query-controls.js:397
+#: blocks/src/dynamic-slider/query-controls.js:498
+#: blocks/src/dynamic-slider/query-controls.js:619
+msgid "Regular"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:196
+#: blocks/src/dynamic-slider/query-controls.js:401
+#: blocks/src/dynamic-slider/query-controls.js:502
+#: blocks/src/dynamic-slider/query-controls.js:623
+msgid "Medium"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:197
+#: blocks/src/dynamic-slider/query-controls.js:405
+#: blocks/src/dynamic-slider/query-controls.js:506
+#: blocks/src/dynamic-slider/query-controls.js:627
+msgid "Semi Bold"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:198
+#: blocks/src/dynamic-slider/query-controls.js:408
+#: blocks/src/dynamic-slider/query-controls.js:509
+#: blocks/src/dynamic-slider/query-controls.js:630
+msgid "Bold"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:199
+#: blocks/src/dynamic-slider/query-controls.js:410
+#: blocks/src/dynamic-slider/query-controls.js:511
+#: blocks/src/dynamic-slider/query-controls.js:632
+msgid "Extra Bold"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:200
+#: blocks/src/dynamic-slider/query-controls.js:414
+#: blocks/src/dynamic-slider/query-controls.js:515
+#: blocks/src/dynamic-slider/query-controls.js:636
+msgid "Black"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:212
+#: blocks/src/dynamic-slider/controls.js:173
+msgid "Pagination Color"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:229
+#: blocks/src/dynamic-slider/controls.js:191
+msgid "Navigation Settings"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:234
+#: blocks/src/dynamic-slider/controls.js:196
+msgid "Enable Navigation"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:247
+#: blocks/src/dynamic-slider/controls.js:209
+msgid "Arrow Control Size"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:266
+#: blocks/src/dynamic-slider/controls.js:228
+msgid "Arrow Control Padding"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:284
+#: blocks/src/dynamic-slider/controls.js:246
+msgid "Arrow Control Border"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:297
+#: blocks/src/dynamic-slider/controls.js:259
+msgid "Arrow Control Border Radius"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:316
+#: blocks/src/dynamic-slider/controls.js:278
+msgid "Arrow Control Color"
+msgstr ""
+
+#: blocks/src/advanced-slider/controls.js:330
+#: blocks/src/dynamic-slider/controls.js:292
+msgid "Arrow Control Background Color"
+msgstr ""
+
+#: blocks/src/breadcrumb/edit.js:27
+msgid "Home >"
+msgstr ""
+
+#: blocks/src/breadcrumb/edit.js:27
+msgid "Page Name"
+msgstr ""
+
+#: blocks/src/component/hover-effect/hoverEffectInspectorControls.js:44
+msgid "Hover Effect"
+msgstr ""
+
+#: blocks/src/component/hover-effect/hoverEffectInspectorControls.js:48
+msgid "Note: Hover Effect will only work in the frontend."
+msgstr ""
+
+#: blocks/src/component/hover-effect/hoverEffectInspectorControls.js:53
+msgid "Select Hover Effect"
+msgstr ""
+
+#: blocks/src/component/hover-effect/hoverEffectInspectorControls.js:56
+#: blocks/src/dynamic-slider/query-controls.js:238
+msgid "None"
+msgstr ""
+
+#: blocks/src/component/hover-effect/hoverEffectInspectorControls.js:57
+msgid "Slide Up"
+msgstr ""
+
+#: blocks/src/component/hover-effect/hoverEffectInspectorControls.js:58
+msgid "Slide Down"
+msgstr ""
+
+#: blocks/src/component/hover-effect/hoverEffectInspectorControls.js:59
+msgid "Slide Right"
+msgstr ""
+
+#: blocks/src/component/hover-effect/hoverEffectInspectorControls.js:60
+msgid "Slide Left"
+msgstr ""
+
+#: blocks/src/component/hover-effect/hoverEffectInspectorControls.js:61
+msgid "Zoom In"
+msgstr ""
+
+#: blocks/src/component/hover-effect/hoverEffectInspectorControls.js:62
+msgid "Zoom Out"
+msgstr ""
+
+#: blocks/src/component/hover-effect/hoverEffectInspectorControls.js:63
+msgid "Twirl Right"
+msgstr ""
+
+#: blocks/src/component/hover-effect/hoverEffectInspectorControls.js:64
+msgid "Twirl Left"
+msgstr ""
+
+#: blocks/src/component/pattern-importer/index.js:95
+msgid "No templates found"
+msgstr ""
+
+#: blocks/src/component/pattern-importer/index.js:98
+#: blocks/src/component/pattern-importer/index.js:136
+msgid "Error fetching templates:"
+msgstr ""
+
+#: blocks/src/component/pattern-importer/index.js:270
+#: blocks/src/component/pattern-importer/index.js:275
+msgid "wpOpus Templates"
+msgstr ""
+
+#: blocks/src/component/responsive/responsiveInspectorControls.js:38
+msgid "Hide on Desktop"
+msgstr ""
+
+#: blocks/src/component/responsive/responsiveInspectorControls.js:39
+msgid "Hide on Tablet"
+msgstr ""
+
+#: blocks/src/component/responsive/responsiveInspectorControls.js:40
+msgid "Hide on Mobile"
+msgstr ""
+
+#: blocks/src/component/responsive/responsiveInspectorControls.js:56
+msgid "Responsive"
+msgstr ""
+
+#: blocks/src/component/responsive/responsiveInspectorControls.js:60
+msgid "Note: Responsive will only work in the frontend."
+msgstr ""
+
+#: blocks/src/counter/edit.js:57
+msgid "Counter Settings"
+msgstr ""
+
+#: blocks/src/counter/edit.js:60
+msgid "Counter Value"
+msgstr ""
+
+#: blocks/src/counter/edit.js:74
+msgid "Count Start From"
+msgstr ""
+
+#: blocks/src/counter/edit.js:88 blocks/src/marquee/edit.js:136
+msgid "Speed"
+msgstr ""
+
+#: blocks/src/counter/edit.js:89
+msgid "Lower value counts faster"
+msgstr ""
+
+#: blocks/src/counter/edit.js:103
+msgid "Suffix"
+msgstr ""
+
+#: blocks/src/counter/edit.js:109
+msgid "+"
+msgstr ""
+
+#: blocks/src/dynamic-slider/controls.js:91
+msgid "Slides Per View"
+msgstr ""
+
+#: blocks/src/dynamic-slider/controls.js:107
+msgid "Space Between"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:87
+msgid "Post Settings"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:94
+msgid "Query"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:98
+msgid "Style"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:110
+msgid "Content Type"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:113
+msgid "Latest Posts"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:114
+msgid "Selective Posts"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:116
+msgid "Posts by Category"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:119
+msgid "Selective Pages"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:131
+msgid "Excerpt Length"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:148
+msgid "Number of Posts"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:163
+msgid "Loading Posts"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:169
+msgid "Select Posts"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:171
+msgid "Note: Press Ctrl/Command key while selecting multiple posts."
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:193
+msgid "Loading Pages"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:199
+msgid "Select Pages"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:201
+msgid "Note: Press Ctrl/Command key while selecting multiple pages."
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:223
+msgid "Loading Categories"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:230
+msgid "Select Category"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:249
+msgid "General Style"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:256
+msgid "Design Layout"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:261
+msgid "Full Banner"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:265
+msgid "Left Image Right Content"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:269
+msgid "Left Content Right Image"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:273
+msgid "Top Image Bottom Content"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:286
+msgid "Image Height (Px)"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:301
+msgid "Content Alignment"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:310
+#: blocks/src/marquee/edit.js:111
+msgid "Left"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:314
+msgid "Center"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:318
+#: blocks/src/marquee/edit.js:112
+msgid "Right"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:326
+msgid "Content Background Color"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:341
+msgid "Category Style"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:348
+#: blocks/src/dynamic-slider/query-controls.js:449
+#: blocks/src/dynamic-slider/query-controls.js:570
+msgid "Font Family"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:427
+#: blocks/src/dynamic-slider/query-controls.js:548
+#: blocks/src/dynamic-slider/query-controls.js:649
+msgid "Text Color"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:442
+msgid "Title Style"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:528
+msgid "Margin"
+msgstr ""
+
+#: blocks/src/dynamic-slider/query-controls.js:563
+msgid "Excerpt Style"
+msgstr ""
+
+#: blocks/src/google-map/edit.js:44
+msgid "Map Settings"
+msgstr ""
+
+#: blocks/src/google-map/edit.js:47 blocks/src/google-map/edit.js:53
+msgid "Location"
+msgstr ""
+
+#: blocks/src/google-map/edit.js:55
+msgid "Update Map Location"
+msgstr ""
+
+#: blocks/src/google-map/edit.js:61
+msgid "Height (px)"
+msgstr ""
+
+#: blocks/src/header-search/edit.js:25
+msgid "WpOpus Header Search Settings"
+msgstr ""
+
+#: blocks/src/header-search/edit.js:28
+msgid "Size (px)"
+msgstr ""
+
+#: blocks/src/header-search/edit.js:45
+msgid "Margin Left (px)"
+msgstr ""
+
+#: blocks/src/header-search/edit.js:62
+msgid "Margin Right (px)"
+msgstr ""
+
+#: blocks/src/header-search/edit.js:79
+msgid "Icon Color"
+msgstr ""
+
+#: blocks/src/icon-picker/edit.js:188 blocks/src/icon/edit.js:169
+msgid "Only in pro version"
+msgstr ""
+
+#: blocks/src/icon-text/edit.js:21
+msgid "Label"
+msgstr ""
+
+#: blocks/src/marquee/edit.js:34
+msgid "Marquee Title"
+msgstr ""
+
+#: blocks/src/marquee/edit.js:77
+msgid "Start Marquee"
+msgstr ""
+
+#: blocks/src/marquee/edit.js:81
+msgid "Pause Marquee"
+msgstr ""
+
+#: blocks/src/marquee/edit.js:89
+msgid "Marquee Settings"
+msgstr ""
+
+#: blocks/src/marquee/edit.js:92
+msgid "Stop on Hover"
+msgstr ""
+
+#: blocks/src/marquee/edit.js:93
+msgid "It only works in frontend."
+msgstr ""
+
+#: blocks/src/marquee/edit.js:104
+msgid "Direction"
+msgstr ""
+
+#: blocks/src/marquee/edit.js:113
+msgid "Up"
+msgstr ""
+
+#: blocks/src/marquee/edit.js:114
+msgid "Down"
+msgstr ""
+
+#: blocks/src/marquee/edit.js:121
+msgid "Behavior"
+msgstr ""
+
+#: blocks/src/marquee/edit.js:128
+msgid "Scroll"
+msgstr ""
+
+#: blocks/src/marquee/edit.js:129
+msgid "Alternate"
+msgstr ""
+
+#: blocks/src/progress-bar-item/edit.js:28
+msgid "Progress Bar Title"
+msgstr ""
+
+#: blocks/src/progress-bar-item/edit.js:49
+msgid "Progress Bar Settings"
+msgstr ""
+
+#: blocks/src/progress-bar-item/edit.js:52
+msgid "Value in Percent"
+msgstr ""
+
+#: blocks/src/progress-bar-item/edit.js:65
+msgid "Bar Height"
+msgstr ""
+
+#: blocks/src/progress-bar-item/edit.js:77
+msgid "Bar Color"
+msgstr ""
+
+#: blocks/src/progress-bar-item/edit.js:91
+msgid "Base Color"
+msgstr ""
+
+#: blocks/src/progress-bars/edit.js:35
+msgid "Add New Bar"
+msgstr ""
+
+#: blocks/src/service/edit.js:35
+msgid "Service Title"
+msgstr ""
+
+#: blocks/src/service/edit.js:39
+msgid "Service Description"
+msgstr ""
+
+#: blocks/src/shape-divider-cover/edit.js:95
+msgid "Shape Divider Settings"
+msgstr ""
+
+#: blocks/src/shape-divider-cover/edit.js:96
+msgid "Error Fetching Shape Dividers:"
+msgstr ""
+
+#: blocks/src/shape-divider-cover/edit.js:100
+msgid "List Shape Dividers"
+msgstr ""
+
+#: blocks/src/shape-divider-cover/edit.js:115
+msgid "Loading Shape Dividers"
+msgstr ""
+
+#: blocks/src/star-rating/edit.js:41
+msgid "Star Rating Settings"
+msgstr ""
+
+#: blocks/src/star-rating/edit.js:45
+msgid "Star Rating"
+msgstr ""
+
+#: blocks/src/star-rating/edit.js:59
+msgid "Star Layout"
+msgstr ""
+
+#: blocks/src/star-rating/edit.js:74
+msgid "Star Size"
+msgstr ""
+
+#: blocks/src/star-rating/edit.js:86
+msgid "Star Base Color"
+msgstr ""
+
+#: blocks/src/star-rating/edit.js:100
+msgid "Star Highlight Color"
+msgstr ""
+
+#: blocks/src/utils/text-repeater.js:4
+msgid "Text Field "
+msgstr ""
+
+#: blocks/src/utils/text-repeater.js:4
+msgid "Add Text Field"
+msgstr ""
+
+#: blocks/src/variation/advanced-query-loop/index.js:8
+msgid "Advanced Query"
+msgstr ""
+
+#: blocks/src/variation/advanced-query-loop/index.js:9
+msgid "Advanced layout"
+msgstr ""
+
+#: blocks/src/variation/advanced-query-loop/index.js:185
+msgid "Read More..."
+msgstr ""
+
+#: include/breadcrumb.php:269
+msgid "Browse:"
+msgstr ""
+
+#: include/breadcrumb.php:270
+msgid "Breadcrumbs"
+msgstr ""
+
+#: include/breadcrumb.php:271
+msgid "Home"
+msgstr ""
+
+#: include/breadcrumb.php:272
+msgid "404 Not Found"
+msgstr ""
+
+#: include/breadcrumb.php:273
+msgid "Archives"
+msgstr ""
+
+#: include/breadcrumb.php:275
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: include/breadcrumb.php:277
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: include/breadcrumb.php:279
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: include/breadcrumb.php:281
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: include/breadcrumb.php:283
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: include/breadcrumb.php:741
+msgid "g:i a"
+msgstr ""
+
+#: include/breadcrumb.php:759
+msgid "i"
+msgstr ""
+
+#: include/breadcrumb.php:777
+msgid "g a"
+msgstr ""
+
+#: include/breadcrumb.php:794 include/breadcrumb.php:823
+#: include/breadcrumb.php:850 include/breadcrumb.php:877
+#: include/breadcrumb.php:1222
+msgid "Y"
+msgstr ""
+
+#: include/breadcrumb.php:795 include/breadcrumb.php:851
+#: include/breadcrumb.php:1226
+msgid "F"
+msgstr ""
+
+#: include/breadcrumb.php:796 include/breadcrumb.php:1230
+msgid "j"
+msgstr ""
+
+#: include/breadcrumb.php:824
+msgid "W"
+msgstr ""
+
+#: include/core.php:209 include/setting.php:39 include/setting.php:40
+msgid "wpOpus"
+msgstr ""
+
+#: include/demo-import/demo-import.php:172
+msgid "User not logged in"
+msgstr ""
+
+#: include/demo-import/demo-import.php:178
+msgid "User does not have sufficient permissions"
+msgstr ""
+
+#: include/demo-import/demo-import.php:185
+msgid "Invalid nonce"
+msgstr ""
+
+#: include/demo-import/demo-import.php:206
+msgid "This demo is already imported."
+msgstr ""
+
+#: include/demo-import/demo-import.php:213
+msgid "Invalid XML data"
+msgstr ""
+
+#: include/demo-import/demo-import.php:229
+msgid "Error importing demo data"
+msgstr ""
+
+#: include/demo-import/demo-import.php:231
+msgid "Demo data imported successfully"
+msgstr ""
+
+#: include/routes.php:109
+msgid "SVG not found!"
+msgstr ""
+
+#: include/routes.php:140
+msgid "Option name and value are required"
+msgstr ""
+
+#: include/routes.php:146
+msgid "Failed to update option"
+msgstr ""
+
+#: include/routes.php:159
+msgid "Invalid option names format"
+msgstr ""
+
+#: include/setting.php:50
+msgid "wpOpus Demo Import"
+msgstr ""
+
+#: include/setting.php:51
+msgid "Demo Import"
+msgstr ""
+
+#: include/structure.php:41
+msgid "Search for:"
+msgstr ""
+
+#: include/structure.php:44
+msgid "Search &hellip;"
+msgstr ""
+
+#: include/structure.php:53
+msgid "Search"
+msgstr ""

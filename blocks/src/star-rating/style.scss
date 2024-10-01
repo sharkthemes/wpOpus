@@ -1,0 +1,32 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wpopus-star-rating {
+    width: max-content;
+}
+.wpopus-star-rating .star-rating {
+    --wpopus-rating: 3.3;
+    --wpopus-star-size: 60px;
+    --wpopus-star-basecolor: #dddddd;
+    --wpopus-star-highlightcolor: #f9d02f;
+    --wpopus-star-content: '★★★★★';
+    --wpopus-percent: calc(var(--wpopus-rating) / 5 * 100%);
+    
+    display: inline-block;
+    font-size: var(--wpopus-star-size);
+    font-family: Times; // make sure ★ appears correctly
+    line-height: 1;
+    
+    &::before {
+        content: var(--wpopus-star-content);
+        letter-spacing: 3px;
+        background: linear-gradient(90deg, var(--wpopus-star-highlightcolor) var(--wpopus-percent), var(--wpopus-star-basecolor) var(--wpopus-percent));
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}

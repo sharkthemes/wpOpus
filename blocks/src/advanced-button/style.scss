@@ -1,0 +1,69 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wpopus-advanced-button {
+	--wpopus-advanced-button-icon-size: 20px;
+    --wpopus-advanced-button-icon-gap: 8px;
+
+	box-sizing: border-box;
+	width: max-content;
+	background-color: #2d2d2d;
+	color: #ffffff;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 10px 15px;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	
+	a {
+		color: currentColor;
+		text-decoration: none;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		font-size: inherit;
+	}
+
+	a .wpopus-icon,
+	.wpopus-icon {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: var( --wpopus-advanced-button-icon-gap );
+		color: currentColor;
+		height: var( --wpopus-advanced-button-icon-size );
+		width: var( --wpopus-advanced-button-icon-size );
+
+		svg {
+			fill: currentColor;
+			color: currentColor;
+			height: 100%;
+			width: 100%;
+			
+			ellipse,
+			polyline,
+			line,
+			rect,
+			circle,
+			path {
+				stroke: currentColor !important; 
+			}
+		}
+	}
+
+	&.icon-left a,
+	&.icon-left {
+		flex-direction: row-reverse;
+
+		.wpopus-icon {
+			margin-left: 0;
+			margin-right: var( --wpopus-advanced-button-icon-gap );
+		}
+	}
+}

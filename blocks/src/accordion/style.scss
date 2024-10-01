@@ -1,0 +1,64 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ .wp-block-wpopus-accordion {
+    --wpopus-accordion-item-gap: 0
+    overflow: hidden;
+ }
+.wp-block-wpopus-accordion .accordion-heading {
+	border-bottom: 1px solid #eee;
+    padding: 20px;
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+}
+.wp-block-wpopus-accordion.left-icon .accordion-heading {
+    padding-left: 50px !important;
+}
+.wp-block-wpopus-accordion.right-icon .accordion-heading {
+    padding-right: 50px !important;
+}
+.wp-block-wpopus-accordion .accordion-heading:before,
+.wp-block-wpopus-accordion .accordion-heading:after {
+    content: "+";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    text-align: center;
+}
+.wp-block-wpopus-accordion.right-icon .accordion-heading:before,
+.wp-block-wpopus-accordion.right-icon .accordion-heading:after {
+    left: auto;
+    right: 0;
+}
+.wp-block-wpopus-accordion .accordion-heading:after {
+    content: "-";
+    opacity: 0;
+}
+.wp-block-wpopus-accordion .wpopus-accordion-item.active .accordion-heading:before {
+    opacity: 0;
+}
+.wp-block-wpopus-accordion .wpopus-accordion-item.active .accordion-heading:after {
+    opacity: 1;
+}
+.wp-block-wpopus-accordion .wpopus-accordion-item {
+	border: 1px solid #eee;
+    margin-bottom: var(--wpopus-accordion-item-gap);
+}
+.wp-block-wpopus-accordion .wpopus-accordion-item:last-child {
+    margin-bottom: 0 !important;
+}
+.wp-block-wpopus-accordion .accordion-details {
+    padding: 20px;
+    margin: 0;
+    display: none;
+}
+.wp-block-wpopus-accordion .wpopus-accordion-item.active .accordion-details {
+    display: block;
+}

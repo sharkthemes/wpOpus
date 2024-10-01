@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "wpopus/header-search",
+  "version": "1.0.0",
+  "title": "Header Search",
+  "category": "wpopus",
+  "icon": "search",
+  "description": "Add a search icon in header and open search form in popup.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "size": {
+      "type": "integer",
+      "default": 16
+    },
+    "leftMargin": {
+      "type": "integer",
+      "default": 20
+    },
+    "rightMargin": {
+      "type": "integer",
+      "default": 0
+    },
+    "color": {
+      "type": "string",
+      "default": "#000000"
+    }
+  },
+  "textdomain": "wpopus",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

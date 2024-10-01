@@ -1,0 +1,30 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+span.wpopus-icon svg {
+    height: inherit;
+    width: inherit;
+    color: inherit;
+    fill: currentColor;
+}
+span.wpopus-icon svg ellipse,
+span.wpopus-icon svg polyline,
+span.wpopus-icon svg line,
+span.wpopus-icon svg rect,
+span.wpopus-icon svg circle,
+span.wpopus-icon svg path {
+    stroke: currentColor !important; 
+}
+.wp-block-wpopus-icon {
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wp-block-wpopus-icon span {
+    display: block;
+}

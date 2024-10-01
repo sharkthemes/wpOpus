@@ -1,0 +1,163 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+ .wp-block-wpopus-dynamic-slider {
+    --wpopus-image-dynamic-slider-image-height: 500px;
+    --wpopus-image-dynamic-slider-overlay-color: #00000066;
+    --wpopus-image-dynamic-slider-category-color: #ffffff;
+    --wpopus-image-dynamic-slider-category-font: "inherit";
+    --wpopus-image-dynamic-slider-category-font-size: 18px;
+    --wpopus-image-dynamic-slider-category-font-weight: 500;
+    --wpopus-image-dynamic-slider-title-color: #ffffff;
+    --wpopus-image-dynamic-slider-title-font: "inherit";
+    --wpopus-image-dynamic-slider-title-font-size: "initial";
+    --wpopus-image-dynamic-slider-title-font-weight: 500;
+    --wpopus-image-dynamic-slider-title-margin: 20px 0;
+    --wpopus-image-dynamic-slider-excerpt-color: #ffffff;
+    --wpopus-image-dynamic-slider-excerpt-font: "inherit";
+    --wpopus-image-dynamic-slider-excerpt-font-size: 18px;
+    --wpopus-image-dynamic-slider-excerpt-font-weight: 500;
+
+ }
+.wp-block-wpopus-dynamic-slider swiper-container[centered-slides="true"] swiper-slide.swiper-slide-active {
+    opacity: 1 !important;
+    transform: scaleY(1) !important;
+}
+.swiper-button-prev,
+.swiper-button-next {
+    box-sizing: border-box;
+}
+.wp-block-wpopus-dynamic-slider swiper-slide {
+    position: relative;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: 300px;
+}
+.wp-block-wpopus-dynamic-slider swiper-slide .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: var(--wpopus-image-dynamic-slider-overlay-color);
+}
+.wp-block-wpopus-dynamic-slider swiper-slide img {
+    width: 100%;
+    height: var(--wpopus-image-dynamic-slider-image-height);
+    object-fit: cover;
+}
+.wp-block-wpopus-dynamic-slider swiper-slide .content-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    color: var(--wpopus-image-dynamic-slider-category-color);
+
+    .cat-links {
+        color: var(--wpopus-image-dynamic-slider-category-color);
+    }
+
+    .cat-links a,
+    h3 a,
+    p {
+        margin: 0;
+        letter-spacing: 1px;
+        color: #ffffff;
+    }
+
+    .cat-links a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: var(--wpopus-image-dynamic-slider-category-color);
+        font-family: var(--wpopus-image-dynamic-slider-category-font);
+        font-size: var(--wpopus-image-dynamic-slider-category-font-size);
+        font-weight: var(--wpopus-image-dynamic-slider-category-font-weight);
+    }
+
+    h3 {
+        margin: var(--wpopus-image-dynamic-slider-title-margin);
+    }
+
+    h3 a {
+        text-decoration: none;
+        color: var(--wpopus-image-dynamic-slider-title-color);
+        font-family: var(--wpopus-image-dynamic-slider-title-font);
+        font-size: var(--wpopus-image-dynamic-slider-title-font-size);
+        font-weight: var(--wpopus-image-dynamic-slider-title-font-weight);
+    }
+
+    p {
+        color: var(--wpopus-image-dynamic-slider-excerpt-color);
+        font-family: var(--wpopus-image-dynamic-slider-excerpt-font);
+        font-size: var(--wpopus-image-dynamic-slider-excerpt-font-size);
+        font-weight: var(--wpopus-image-dynamic-slider-excerpt-font-weight);
+    }
+}
+.wpopus-dynamic-slider-wrapper {
+    z-index: -1;
+
+    &.content-left swiper-slide .content-wrapper {
+        left: 10%;
+        transform: translate(0, -50%);
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    &.content-right swiper-slide .content-wrapper {
+        left: auto;
+        right: 10%;
+        transform: translate(0, -50%);
+        align-items: flex-end;
+        text-align: right;
+    }
+
+    &.top-image-bottom-content swiper-container swiper-slide,
+    &.left-content-right-image swiper-container swiper-slide,
+    &.left-image-right-content swiper-container swiper-slide {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &.left-content-right-image swiper-container swiper-slide {
+        flex-direction: row-reverse;
+    }
+    &.top-image-bottom-content swiper-container swiper-slide {
+        flex-direction: column;
+    }
+    &.left-content-right-image swiper-container swiper-slide img,
+    &.left-image-right-content swiper-container swiper-slide img {
+        width: 50%;
+        z-index: 1;
+    }
+    &.top-image-bottom-content swiper-container swiper-slide img {
+        z-index: 1;
+    }
+    &.top-image-bottom-content swiper-container swiper-slide .content-wrapper,
+    &.left-content-right-image swiper-container swiper-slide .content-wrapper,
+    &.left-image-right-content swiper-container swiper-slide .content-wrapper {
+        width: 50%;
+        height: auto;
+        position: unset;
+        transform: unset;
+        z-index: 1;
+    }
+    &.top-image-bottom-content swiper-container swiper-slide .content-wrapper {
+        width: 90%;
+        max-width: 700px;
+        padding: 50px 25px;
+    }   
+}
+

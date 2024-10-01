@@ -1,0 +1,68 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ .st-icons-list  {
+    height: 350px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.st-icons-list a {
+    height: max-content;
+    width: max-content;
+    float: left;
+}
+.st-icons-list span svg {
+    width: 25px;
+    height: 25px;
+}
+.st-icons-list span {
+    border: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    padding: 3px;
+    width: max-content;
+}
+.st-search-icons {
+    display: flex;
+    position: relative;
+}
+.st-search-icons span.dashicon {
+    width: 31px;
+    height: 31px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 24px;
+    right: 0;
+    cursor: pointer;
+}
+.st-selected-icon {
+    border: 1px solid #000;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.st-selected-icon svg {
+    width: 30px;
+    height: 30px;
+}
+
+.components-popover.button-url .components-popover__content {
+    width: 400px;
+    padding: 5px;
+}
+.editor-styles-wrapper a.wpopus-advanced-button {
+    color: #ffffff;
+    text-decoration: none;
+}

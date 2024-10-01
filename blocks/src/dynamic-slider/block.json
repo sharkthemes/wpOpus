@@ -1,0 +1,117 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "wpopus/dynamic-slider",
+	"version": "1.0.0",
+	"title": "Dynamic Slider",
+	"category": "wpopus",
+	"icon": "slides",
+	"description": "Add Advanced Post/Page Carousel",
+	"example": {},
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"]
+	},
+	"attributes": {
+		"slideId": {
+			"type": "string"
+		},
+		"apiData": {
+			"type": "object"
+		},
+		"postData": {
+			"type": "object",
+			"default": {
+				"contentType": "latest",
+				"postsCount": 3,
+				"excerptLength": 25,
+				"category": "",
+				"postIds": "",
+				"pageIds": ""
+				
+			}
+		},
+		"postStyle": {
+			"type": "object",
+			"default": {
+				"contentAlign": "content-center",
+				"designLayout": "full-banner",
+				"imageHeight": 500,
+				"overlayColor": "#00000066",
+				"categoryFont": "",
+				"categoryFontColor": "#ffffff",
+				"categoryFontSize": "18px",
+				"categoryFontWeight": 500,
+				"titleFont": "",
+				"titleFontColor": "#ffffff",
+				"titleFontSize": "",
+				"titleMargin":{
+					"top": "20px",
+					"bottom": "20px",
+					"right": "",
+					"left": ""
+				},
+				"titleFontWeight": 600,
+				"excerptFont": "",
+				"excerptFontColor": "#ffffff",
+				"excerptFontSize": "18px",
+				"excerptFontWeight": 500
+			}
+		},
+		"options": {
+			"type": "object",
+			"default": {
+				"column": 1,
+				"gap": 0,
+				"speed": 300,
+				"inactiveOpacity": 0.3,
+				"inactiveScale": 0.9,
+				"autoplay": true,
+				"autoPlayDelay": 3,
+				"scrollbar": false,
+				"pagination": true,
+				"paginationColor": "#ffffff",
+				"paginationFractionSize": "18px",
+				"paginationFractionWeight": 500,
+				"paginationSize":{
+					"top": "10px",
+					"bottom": "10px",
+					"right": "10px",
+					"left": "10px"
+				},
+				"paginationBorder": {
+					"color": "#ffffff",
+					"style": "solid",
+					"width": "0px"
+				},
+				"navigation": true,
+				"navigationColor": "#ffffff",
+				"navigationBgColor": "#FFFFFF00",
+				"navigationBorder": {
+					"color": "#ffffff",
+					"style": "solid",
+					"width": "0px"
+				},
+				"navigationBorderRadius": "0px",
+				"navigationSize":{
+					"top": "50px",
+					"bottom": "50px",
+					"right": "50px",
+					"left": "50px"
+				},
+				"navigationPadding":{
+					"top": "1px",
+					"bottom": "1px",
+					"right": "1px",
+					"left": "1px"
+				}
+			}
+		}
+	},
+	"textdomain": "wpopus",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"render": "file:./render.php",
+	"style":["swiper-style", "file:./style-index.css"],
+	"viewScript": ["swiper-script", "file:./view.js"]
+}

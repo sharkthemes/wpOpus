@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "wpopus/accordion",
+  "version": "1.0.0",
+  "title": "Advanced Accordion",
+  "category": "wpopus",
+  "icon": "list-view",
+  "description": "Show your details or Faqs through accordion",
+  "example": {},
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "attributes": {
+    "options": {
+      "type": "object",
+      "default": {
+        "iconPlacement": "left-icon",
+        "gap": 0
+      }
+    }
+  },
+  "textdomain": "wpopus",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

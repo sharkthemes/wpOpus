@@ -1,0 +1,53 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "wpopus/marquee",
+  "version": "1.0.0",
+  "title": "Marquee",
+  "category": "wpopus",
+  "icon": "editor-insertmore",
+  "description": "Add a dynamic marquee.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "color": {
+      "background": true,
+      "gradients": true
+    },
+    "spacing": {
+      "padding": true
+    },
+    "__experimentalBorder": {
+      "color": true,
+      "radius": true,
+      "style": true,
+      "width": true,
+      "__experimentalDefaultControls": {
+        "color": true,
+        "radius": true,
+        "style": true,
+        "width": true
+      }
+    }
+  },
+  "attributes": {
+    "options": {
+      "type": "object",
+      "default": {
+        "pauseOnHover": false,
+        "speed": 12,
+        "direction": "left",
+        "behavior": "scroll"
+      }
+    }
+  },
+  "textdomain": "wpopus",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

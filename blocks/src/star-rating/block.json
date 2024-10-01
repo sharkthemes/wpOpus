@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "wpopus/star-rating",
+	"version": "1.0.0",
+	"title": "Star Rating",
+	"category": "wpopus",
+	"icon": "star-half",
+	"description": "Add Advanced star rating.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+        "rating": {
+            "type": "number",
+            "default": 3.2,
+            "minimum": 0,
+            "maximum": 5,
+            "step": 0.1
+        },
+        "options": {
+            "type": "object",
+			"default": {
+				"size": 40,
+				"baseColor": "#dddddd",
+				"highlightColor": "#f9d02f",
+				"layout": "★★★★★"
+			}
+        }
+    },
+	"textdomain": "wpopus",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

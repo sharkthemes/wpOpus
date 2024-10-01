@@ -1,0 +1,163 @@
+.wpopus-admin-page-title {
+    margin-top: 25px;
+}
+.wpopus-admin-page-title-author {
+    font-size: 12px;
+    color: #999999;
+}
+.wpopus-demo-listing-wrapper * {
+    box-sizing: border-box;
+}
+.wpopus-demo-listing-wrapper {
+    margin-top: 30px;
+}
+.wpopus-demo-main-filter {
+    background-color: #2271b1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 32px;
+    z-index: 2;
+}
+.wpopus-demo-main-filter ul.demo-version {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 25px;
+    margin: 0;
+}
+.wpopus-demo-main-filter ul.demo-version li {
+    color: #ffffff;
+    font-size: 15px;
+    margin: 5px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.wpopus-demo-main-filter ul.demo-version li.active {
+    color: #1d1d1d;
+    background-color: #ffffff;
+    font-weight: 500;
+}
+.wpopus-demo-showcase {
+    display: flex;
+}
+.wpopus-demo-showcase .wpopus-category-list-wrapper {
+    width: 20%;
+    background-color: #ffffff;
+}
+.wpopus-demo-showcase .wpopus-category-list-wrapper ul.category-list {
+    padding: 25px;
+    margin: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 96px;
+}
+.wpopus-demo-showcase .wpopus-category-list-wrapper ul.category-list li {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.wpopus-demo-showcase .wpopus-category-list-wrapper ul.category-list li.active {
+    background-color: #2271b1;
+    color: #ffffff;
+}
+.wpopus-demo-showcase .wpopus-demo-container {
+    width: 80%;
+    padding: 25px;
+    text-align: center;
+}
+.wpopus-demo-showcase .wpopus-demo-container .wpopus-demo-wrapper ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.wpopus-demo-showcase .wpopus-demo-container .wpopus-demo-wrapper ul li {
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+.wpopus-demo-showcase .wpopus-demo-container .wpopus-demo-wrapper ul li .demo-item-wrapper {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.wpopus-demo-showcase .wpopus-demo-container .wpopus-demo-wrapper ul li .demo-item-wrapper img {
+    width: 100%;
+    border-radius: 5px;
+    margin: 0;
+}
+.wpopus-demo-showcase .wpopus-demo-container .wpopus-demo-wrapper  ul li .demo-item-wrapper .demo-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 12px 20px;
+}
+.wpopus-demo-showcase .wpopus-demo-container .wpopus-demo-wrapper ul li .demo-item-wrapper h4 {
+    font-size: 17px;
+    margin: 0;
+    border-radius: 5px;
+    line-height: 1;
+}
+.wpopus-demo-showcase .wpopus-demo-container .wpopus-demo-wrapper ul li .demo-item-wrapper .meta-data a {
+    text-decoration: none;
+    margin-right: 5px;
+}
+.wpopus-demo-showcase .wpopus-demo-container .wpopus-demo-wrapper ul li.premium::before,
+.wpopus-demo-showcase .wpopus-demo-container .wpopus-demo-wrapper ul li.pro::before {
+    content: 'Pro';
+    position: absolute;
+    background-color: #f53031;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    top: 30px;
+    right: 30px;
+}
+
+.wpopus-demo-showcase .wpopus-demo-container .wpopus-demo-wrapper ul li::before,
+.wpopus-demo-showcase .wpopus-demo-container .wpopus-demo-wrapper ul li.free::before {
+    content: 'Free';
+    position: absolute;
+    background-color: #18af75;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    top: 30px;
+    right: 30px;
+}
+.components-modal__screen-overlay {
+    position: fixed;
+    z-index: 2;
+    background: #00000059;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.components-modal__frame {
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.components-modal__content {
+    background-color: #ffffff;
+    border-radius: 5px;
+    min-height: 50px;
+    padding: 25px;
+}
+.components-modal__content .components-modal__header {
+    display: none;
+}
+.wpopus-select-plugins label {
+    display: block;
+    line-height: 1.75;
+    font-size: 14px;
+}
+.wpopus-select-plugins .button {
+    margin-top: 15px;
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "wpopus/google-map",
+  "version": "1.0.0",
+  "title": "Google Map",
+  "category": "wpopus",
+  "icon": "location-alt",
+  "description": "Embed simple google map without API key with dynamic location.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "shadow": true
+  },
+  "attributes": {
+    "mapLocation": {
+      "type": "string",
+      "default": "San Francisco, CA"
+    },
+    "mapHeight": {
+      "type": "number",
+      "default": 400
+    }
+  },
+  "textdomain": "wpopus",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

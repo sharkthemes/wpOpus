@@ -1,0 +1,1 @@
+(()=>{const e=document.querySelectorAll(".wpopus-marquee.pause-on-hover");e&&Array.from(e).forEach((e=>{const o=e.querySelector("marquee");o.addEventListener("mouseover",(e=>{o.stop()})),o.addEventListener("mouseout",(e=>{o.start()}))}))})();

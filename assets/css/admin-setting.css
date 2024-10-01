@@ -1,0 +1,111 @@
+.wpopus-tab-panel .components-tab-panel__tabs .components-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  margin: 0 5px 0 0;
+  cursor: pointer;
+}
+.wpopus-tab-panel .components-tab-panel__tabs .components-button.active-tab {
+    background-color: #2271b1;
+    color: #ffffff;
+}
+.wpopus-setting-wrapper {
+  margin: 50px 0;
+  box-sizing: border-box;
+}
+.wpopus-setting-wrapper input[type="text"] {
+  width: 100%;
+}
+.wpopus-setting-wrapper img.wpopus-media {
+  max-width: 100px;
+  display: block;
+  border: 1px solid #aaaaaa;
+  padding: 2px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.wpopus-setting-wrapper .components-number-control,
+.wpopus-setting-wrapper .components-range-control,
+.wpopus-setting-wrapper .components-border-control {
+  max-width: 300px;
+}
+/* color palette */
+.wpopus-color-palette .react-colorful {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #cccccc;
+  padding: 5px;
+  justify-content: flex-start;
+}
+.components-popover {
+  z-index: 999;
+}
+.components-popover__content {
+  background: #ffffff;
+}
+.components-popover__content .components-color-palette__custom-color-button {
+  height: 50px;
+}
+/* typography */
+.wpopus-typography-form ul.typography-multi-select-search {
+  height: 200px;
+  padding: 20px;
+  overflow-y: scroll;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+}
+/* welcome */
+.tab-content.welcome {
+    background: #ffffff;
+    padding: 25px 50px 100px;
+    line-height: 1.5;
+}
+.tab-content.welcome .welcome-wrapper {
+    max-width: 800px;
+}
+.tab-content.welcome h2 {
+    font-size: 36px;
+}
+.tab-content.welcome h3 {
+    font-size: 26px;
+}
+.tab-content.welcome ul {
+    font-size: 16px;
+    list-style: inside;
+    color: #555555;
+}
+.tab-content.welcome p {
+    font-size: 16px;
+}
+.wpopus-tab-panel table tr td {
+    vertical-align: middle;
+    width: 50%;
+    padding: 20px;
+}
+.welcome-wrapper .meta-links {
+    margin-top: 25px;
+}
+.welcome-wrapper .meta-links a {
+    padding: 10px 20px;
+    margin-right: 5px;
+    background: #2271b1;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.wpopus-show-message {
+  position: fixed;
+  top: 50px;
+  right: 50px;
+  padding: 20px;
+  background-color: #1d1d1d;
+  color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

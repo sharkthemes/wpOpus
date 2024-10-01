@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "wpopus/shape-divider-cover",
+	"version": "1.0.0",
+	"title": "Shape Divider Cover",
+	"category": "wpopus",
+	"icon": "tide",
+	"description": "Add a cover block with shape divider.",
+	"example": {},
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"]
+	},
+	"attributes": {
+		"shapeDividerName": {
+			"type": "string"
+		},
+		"shapeDividerValue": {
+			"type": "string",
+			"default": "<svg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' fill='currentColor' fill-rule='evenodd' viewBox='0 0 1000 320'><path d='M1000 150L802.003 284.638c-31.787 21.615-73.151 23.096-106.403 3.81L295.757 56.539a100 100 0 00-93.445-3.649L0 150v170h1000V150z'/><path fill-opacity='.2' d='M0 150L198.655 22.861c31.532-20.18 71.694-21.059 104.077-2.276l399.724 231.84a100 100 0 0096.307 2.218L1000 150 802.003 284.638c-31.787 21.615-73.151 23.096-106.403 3.81L295.757 56.539a100 100 0 00-93.445-3.649L0 150z'/></svg>"
+		},
+		"options": {
+			"type": "object",
+			"default": {
+				"shapeDividerWidth": 100,
+				"shapeDividerHeight": 50,
+				"shapeDividerColor": "#000000",
+				"shapeDividerPlacement": "bottom-placement",
+				"shapeDividerFlipHorizontal": false,
+				"shapeDividerFlipVertical": false
+			}
+		}
+	},
+	"textdomain": "wpopus",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "wpopus/service",
+  "version": "1.0.0",
+  "title": "Service",
+  "category": "wpopus",
+  "icon": "vault",
+  "description": "Add a service block",
+  "example": {},
+  "supports": {
+    "html": false,
+    "shadow": true
+  },
+  "textdomain": "wpopus",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

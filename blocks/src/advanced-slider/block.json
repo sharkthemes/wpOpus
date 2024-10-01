@@ -1,0 +1,70 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "wpopus/advanced-slider",
+	"version": "1.0.0",
+	"title": "Advanced Carousel",
+	"category": "wpopus",
+	"icon": "slides",
+	"description": "Create your advanced carousel.",
+	"example": {},
+	"supports": {
+		"html": false,
+		"align": ["wide", "full"],
+		"orientation": true
+	},
+	"attributes": {
+		"carouselID": {
+			"type": "string"
+		},
+		"options": {
+			"type": "object",
+			"default": {
+				"speed": 300,
+				"autoplay": true,
+				"autoPlayDelay": 3,
+				"pagination": true,
+				"paginationType": "bullets",
+				"paginationColor": "#000000",
+				"paginationFractionSize": "18px",
+				"paginationFractionWeight": 500,
+				"paginationSize":{
+					"top": "10px",
+					"bottom": "10px",
+					"right": "10px",
+					"left": "10px"
+				},
+				"paginationBorder": {
+					"color": "#000000",
+					"style": "solid",
+					"width": "0px"
+				},
+				"navigation": true,
+				"navigationColor": "#000000",
+				"navigationBgColor": "#FFFFFF00",
+				"navigationBorder": {
+					"color": "#000000",
+					"style": "solid",
+					"width": "0px"
+				},
+				"navigationBorderRadius": "0px",
+				"navigationSize":{
+					"top": "50px",
+					"bottom": "50px",
+					"right": "50px",
+					"left": "50px"
+				},
+				"navigationPadding":{
+					"top": "1px",
+					"bottom": "1px",
+					"right": "1px",
+					"left": "1px"
+				}
+			}
+		}
+	},
+	"textdomain": "wpopus",
+	"editorScript": "file:./index.js",
+	"style":["swiper-style", "file:./style-index.css"],
+	"viewScript": ["swiper-script", "file:./view.js"]
+}

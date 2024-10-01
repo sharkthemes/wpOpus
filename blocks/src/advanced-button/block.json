@@ -1,0 +1,79 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "wpopus/advanced-button",
+	"version": "1.0.0",
+	"title": "Advanced Button",
+	"category": "wpopus",
+	"icon": "button",
+	"description": "Add button with icon",
+	"example": {},
+	"supports": {
+		"html": false,
+		"color": {
+            "text": true,
+            "background": true,
+			"gradients": true
+        },
+		"spacing": {
+			"padding": true
+		},
+		"__experimentalBorder": {
+			"color": true,
+			"radius": true,
+			"style": true,
+			"width": true,
+			"__experimentalDefaultControls": {
+				"color": true,
+				"radius": true,
+				"style": true,
+				"width": true
+			}
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true,
+			"__experimentalFontFamily": true,
+			"__experimentalFontWeight": true,
+			"__experimentalFontStyle": true,
+			"__experimentalTextTransform": true,
+			"__experimentalTextDecoration": true,
+			"__experimentalLetterSpacing": true,
+			"__experimentalDefaultControls": {
+				"fontSize": true
+			}
+		},
+		"shadow": true
+	},
+	"attributes": {
+		"buttonUrl": {
+			"type": "string",
+			"source": "attribute",
+			"selector": "a",
+			"attribute": "href"
+		},
+		"buttonIcon": {
+			"type": "string",
+			"default": "<svg xmlns='http://www.w3.org/2000/svg' width='512' height='512' viewBox='0 0 512 512'><path d='M464,256c0-114.87-93.13-208-208-208S48,141.13,48,256s93.13,208,208,208S464,370.87,464,256ZM240,336.09,303.58,272H154V240H303.58L240,175.91l22.71-22.54L364.54,256,262.7,358.63Z'></path></svg>"
+		},
+		"buttonContent": {
+            "type": "string",
+            "source": "html",
+            "selector": "span",
+			"default": "Learn More"
+        },
+		"options": {
+			"type": "object",
+			"default": {
+				"buttonLinkNewTab": false,
+				"buttonIconSize": 20,
+				"buttonIconPosition": "icon-right",
+				"buttonIconGap": 8
+			}
+		}	
+	},
+	"textdomain": "wpopus",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

@@ -1,0 +1,61 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-wpopus-progress-bars {
+    --wpopus-progress-bar-item-color: #ff5f54;
+    --wpopus-progress-bar-item-base-color: #dddddd;
+    --wpopus-progress-bar-item-height: 5px;
+    --wpopus-progress-bar-item-value: 80%;
+
+    .wp-block-wpopus-progress-bar-item {
+        width: 100%;
+        
+        &:not(:first-child) {
+            margin-top: 25px;
+        }
+        
+        .wpopus-progress-bar-item-title {
+            margin: 0 0 4px;
+        }
+
+        .wpopus-progress-bar-item-wrapper {
+            width: 100%;
+            height: auto;
+            background-color: var( --wpopus-progress-bar-item-base-color );
+            border-radius: 2px;
+            position: relative;
+            
+            .wpopus-progress-bar-item-value {
+                position: absolute;
+                top: auto;
+                bottom: 100%;
+                left: auto;
+                right: 0;
+                margin: 0;
+            }
+
+            .wpopus-progress-bar-item {
+                border-radius: 2px;
+                height: var( --wpopus-progress-bar-item-height );
+                background-color: var( --wpopus-progress-bar-item-color );
+                display: flex;
+                justify-content: flex-end;
+                animation: wpopus-progress-bar-width 1s normal forwards;
+
+            }
+        }
+    }
+}
+
+@keyframes wpopus-progress-bar-width {
+    from {
+        width: 0;
+    }
+    to {
+        width: var( --wpopus-progress-bar-item-value );
+    }
+}

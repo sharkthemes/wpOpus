@@ -1,0 +1,16 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wpopus-icon-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.wpopus-icon-text .wp-block-wpopus-icon {
+    margin-right: 15px;
+}

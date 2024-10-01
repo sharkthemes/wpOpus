@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){const t=document.querySelectorAll(".wpopus-counter");t&&Array.from(t).forEach((t=>{var e=t.getAttribute("data-count-start"),n=t.getAttribute("data-count-end"),r=t.getAttribute("data-speed");setInterval((function(){if(++e>n)return!1;t.innerText=e}),r)}))}));

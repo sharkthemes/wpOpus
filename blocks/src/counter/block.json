@@ -1,0 +1,58 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "wpopus/counter",
+	"version": "1.0.0",
+	"title": "Counter",
+	"category": "wpopus",
+	"icon": "insert-after",
+	"description": "Number counter up block.",
+	"example": {},
+	"supports": {
+		"html": false,
+		"color": {
+            "text": true,
+            "background": true,
+			"gradients": true
+        },
+		"spacing": {
+			"margin": true, 
+        	"padding": true
+		},
+		"typography": {
+			"fontSize": true,
+			"lineHeight": true,
+			"__experimentalFontFamily": true,
+			"__experimentalFontWeight": true,
+			"__experimentalFontStyle": true,
+			"__experimentalTextTransform": true,
+			"__experimentalTextDecoration": true,
+			"__experimentalLetterSpacing": true,
+			"__experimentalDefaultControls": {
+				"fontSize": true
+			}
+		}
+	},
+	"attributes": {
+		"countValue": {
+			"type": "number",
+			"default": 100
+		},
+		"countStart": {
+			"type": "number",
+			"default": 1
+		},
+		"speed": {
+			"type": "number",
+			"default": 40
+		},
+		"suffix": {
+			"type": "string"
+		}
+	},
+	"textdomain": "counter",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

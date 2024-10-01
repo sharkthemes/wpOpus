@@ -1,0 +1,23 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-wpopus-breadcrumb {
+	width: max-content;
+	a {
+		text-decoration: none !important;
+	}
+	.breadcrumb-trail .trail-items span.trail-item {
+		margin-right: 10px;
+		display: inline;
+	}
+	.breadcrumb-trail .trail-items span.trail-item a:after {
+		content: '›';
+		position: relative;
+		margin-left: 10px;
+
+	}
+}
