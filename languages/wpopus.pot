@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: wpOpus 1.0.0\n"
-"POT-Creation-Date: 2024-08-14 02:03+0545\n"
+"POT-Creation-Date: 2024-10-07 01:54+0545\n"
 "PO-Revision-Date: 2020-07-21 14:18+0545\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -33,21 +33,21 @@ msgid "Accordion Description"
 msgstr ""
 
 #: blocks/src/admin/demo-import/import.js:68
-#: blocks/src/admin/demo-import/index.js:95
+#: blocks/src/admin/demo-import/index.js:98
 #: blocks/src/admin/settings/backtotop.js:109
 #: blocks/src/admin/settings/preloader.js:86
-#: blocks/src/component/pattern-importer/index.js:88
-#: blocks/src/component/pattern-importer/index.js:220
+#: blocks/src/component/pattern-importer/index.js:90
+#: blocks/src/component/pattern-importer/index.js:222
 msgid "Invalid response format"
 msgstr ""
 
 #: blocks/src/admin/demo-import/import.js:75
-#: include/demo-import/demo-import.php:198
+#: include/demo-import/demo-import.php:306
 msgid "No demo data found"
 msgstr ""
 
 #: blocks/src/admin/demo-import/import.js:78
-#: blocks/src/admin/demo-import/index.js:105
+#: blocks/src/admin/demo-import/index.js:108
 msgid "Error fetching demo routes:"
 msgstr ""
 
@@ -59,19 +59,19 @@ msgstr ""
 msgid "Demo Data Prepared"
 msgstr ""
 
-#: blocks/src/admin/demo-import/index.js:44
+#: blocks/src/admin/demo-import/index.js:47
 msgid "Failed to check demo."
 msgstr ""
 
-#: blocks/src/admin/demo-import/index.js:102
+#: blocks/src/admin/demo-import/index.js:105
 msgid "No demo routes found"
 msgstr ""
 
-#: blocks/src/admin/demo-import/index.js:128
+#: blocks/src/admin/demo-import/index.js:131
 msgid "This demo has already been imported"
 msgstr ""
 
-#: blocks/src/admin/demo-import/index.js:155
+#: blocks/src/admin/demo-import/index.js:195
 msgid "Loading Demo"
 msgstr ""
 
@@ -83,21 +83,21 @@ msgstr ""
 msgid "Importing demo data"
 msgstr ""
 
-#: blocks/src/admin/demo-import/insert-demo.js:65
-msgid "Importing required plugin"
+#: blocks/src/admin/demo-import/insert-demo.js:66
+msgid "Importing recommended plugins"
 msgstr ""
 
-#: blocks/src/admin/demo-import/insert-demo.js:71
+#: blocks/src/admin/demo-import/insert-demo.js:73
 msgid "Demo data imported"
 msgstr ""
 
-#: blocks/src/admin/demo-import/insert-demo.js:74
-msgid "Required plugins installed"
+#: blocks/src/admin/demo-import/insert-demo.js:77
+msgid "Recommended plugins installed"
 msgstr ""
 
 #: blocks/src/admin/settings/backtotop.js:116
 #: blocks/src/admin/settings/preloader.js:93
-#: blocks/src/component/pattern-importer/index.js:227
+#: blocks/src/component/pattern-importer/index.js:229
 msgid "An error occurred while fetching options"
 msgstr ""
 
@@ -108,7 +108,7 @@ msgstr ""
 
 #: blocks/src/admin/settings/backtotop.js:160
 #: blocks/src/admin/settings/preloader.js:137
-#: blocks/src/component/pattern-importer/index.js:257
+#: blocks/src/component/pattern-importer/index.js:259
 msgid "An error occurred while saving option"
 msgstr ""
 
@@ -588,18 +588,21 @@ msgstr ""
 msgid "Twirl Left"
 msgstr ""
 
-#: blocks/src/component/pattern-importer/index.js:95
+#: blocks/src/component/pattern-importer/index.js:97
 msgid "No templates found"
 msgstr ""
 
-#: blocks/src/component/pattern-importer/index.js:98
-#: blocks/src/component/pattern-importer/index.js:136
+#: blocks/src/component/pattern-importer/index.js:100
+#: blocks/src/component/pattern-importer/index.js:138
 msgid "Error fetching templates:"
 msgstr ""
 
-#: blocks/src/component/pattern-importer/index.js:270
-#: blocks/src/component/pattern-importer/index.js:275
+#: blocks/src/component/pattern-importer/index.js:272
 msgid "wpOpus Templates"
+msgstr ""
+
+#: blocks/src/component/pattern-importer/index.js:277
+msgid "Templates"
 msgstr ""
 
 #: blocks/src/component/responsive/responsiveInspectorControls.js:38
@@ -996,112 +999,127 @@ msgstr ""
 msgid "Read More..."
 msgstr ""
 
-#: include/breadcrumb.php:269
+#: include/breadcrumb.php:276
 msgid "Browse:"
 msgstr ""
 
-#: include/breadcrumb.php:270
+#: include/breadcrumb.php:277
 msgid "Breadcrumbs"
 msgstr ""
 
-#: include/breadcrumb.php:271
+#: include/breadcrumb.php:278
 msgid "Home"
 msgstr ""
 
-#: include/breadcrumb.php:272
+#: include/breadcrumb.php:279
 msgid "404 Not Found"
 msgstr ""
 
-#: include/breadcrumb.php:273
+#: include/breadcrumb.php:280
 msgid "Archives"
 msgstr ""
 
-#: include/breadcrumb.php:275
+#: include/breadcrumb.php:282
 #, php-format
 msgid "Search results for: %s"
 msgstr ""
 
-#: include/breadcrumb.php:277
+#: include/breadcrumb.php:284
 #, php-format
 msgid "Page %s"
 msgstr ""
 
-#: include/breadcrumb.php:279
+#: include/breadcrumb.php:286
 #, php-format
 msgid "Comment Page %s"
 msgstr ""
 
-#: include/breadcrumb.php:281
+#: include/breadcrumb.php:288
 #, php-format
 msgid "Minute %s"
 msgstr ""
 
-#: include/breadcrumb.php:283
+#: include/breadcrumb.php:290
 #, php-format
 msgid "Week %s"
 msgstr ""
 
-#: include/breadcrumb.php:741
+#: include/breadcrumb.php:748
 msgid "g:i a"
 msgstr ""
 
-#: include/breadcrumb.php:759
+#: include/breadcrumb.php:766
 msgid "i"
 msgstr ""
 
-#: include/breadcrumb.php:777
+#: include/breadcrumb.php:784
 msgid "g a"
 msgstr ""
 
-#: include/breadcrumb.php:794 include/breadcrumb.php:823
-#: include/breadcrumb.php:850 include/breadcrumb.php:877
-#: include/breadcrumb.php:1222
+#: include/breadcrumb.php:801 include/breadcrumb.php:830
+#: include/breadcrumb.php:857 include/breadcrumb.php:884
+#: include/breadcrumb.php:1229
 msgid "Y"
 msgstr ""
 
-#: include/breadcrumb.php:795 include/breadcrumb.php:851
-#: include/breadcrumb.php:1226
+#: include/breadcrumb.php:802 include/breadcrumb.php:858
+#: include/breadcrumb.php:1233
 msgid "F"
 msgstr ""
 
-#: include/breadcrumb.php:796 include/breadcrumb.php:1230
+#: include/breadcrumb.php:803 include/breadcrumb.php:1237
 msgid "j"
 msgstr ""
 
-#: include/breadcrumb.php:824
+#: include/breadcrumb.php:831
 msgid "W"
 msgstr ""
 
-#: include/core.php:209 include/setting.php:39 include/setting.php:40
+#: include/core.php:227 include/setting.php:39 include/setting.php:40
 msgid "wpOpus"
 msgstr ""
 
-#: include/demo-import/demo-import.php:172
+#: include/demo-import/demo-import.php:280
 msgid "User not logged in"
 msgstr ""
 
-#: include/demo-import/demo-import.php:178
+#: include/demo-import/demo-import.php:286
 msgid "User does not have sufficient permissions"
 msgstr ""
 
-#: include/demo-import/demo-import.php:185
+#: include/demo-import/demo-import.php:293
 msgid "Invalid nonce"
 msgstr ""
 
-#: include/demo-import/demo-import.php:206
+#: include/demo-import/demo-import.php:314
 msgid "This demo is already imported."
 msgstr ""
 
-#: include/demo-import/demo-import.php:213
+#: include/demo-import/demo-import.php:321
 msgid "Invalid XML data"
 msgstr ""
 
-#: include/demo-import/demo-import.php:229
+#: include/demo-import/demo-import.php:337
 msgid "Error importing demo data"
 msgstr ""
 
-#: include/demo-import/demo-import.php:231
+#: include/demo-import/demo-import.php:339
 msgid "Demo data imported successfully"
+msgstr ""
+
+#: include/demo-import/xml-importer.php:102
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: include/demo-import/xml-importer.php:142
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: include/demo-import/xml-importer.php:193
+#, php-format
+msgid "Failed to import %s %s"
 msgstr ""
 
 #: include/routes.php:109
@@ -1120,22 +1138,22 @@ msgstr ""
 msgid "Invalid option names format"
 msgstr ""
 
-#: include/setting.php:50
-msgid "wpOpus Demo Import"
-msgstr ""
-
-#: include/setting.php:51
+#: include/setting.php:50 include/setting.php:51
 msgid "Demo Import"
 msgstr ""
 
-#: include/structure.php:41
+#: include/setting.php:85
+msgid "For"
+msgstr ""
+
+#: include/structure.php:56
 msgid "Search for:"
 msgstr ""
 
-#: include/structure.php:44
+#: include/structure.php:59
 msgid "Search &hellip;"
 msgstr ""
 
-#: include/structure.php:53
+#: include/structure.php:68
 msgid "Search"
 msgstr ""

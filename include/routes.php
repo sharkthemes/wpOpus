@@ -29,40 +29,58 @@ class WpOpus_Routes
 
 	public function register_routes()
 	{
-		register_rest_route($this->namespace, '/' . $this->base1, array(
+		register_rest_route(
+			$this->namespace,
+			'/' . $this->base1,
 			array(
-				'methods' => WP_REST_Server::READABLE,
-				'callback' => array($this, 'get_ionicons_svg'),
-				'permission_callback' => '__return_true',
+				array(
+					'methods' => WP_REST_Server::READABLE,
+					'callback' => array($this, 'get_ionicons_svg'),
+					'permission_callback' => function () {
+						return current_user_can('manage_options'); // Adjust capability as needed
+					}
+				)
 			)
-		)
 		);
 
-		register_rest_route($this->namespace, '/' . $this->base2 . '/(?P<file_name>[a-zA-Z0-9-]+)', array(
+		register_rest_route(
+			$this->namespace,
+			'/' . $this->base2 . '/(?P<file_name>[a-zA-Z0-9-]+)',
 			array(
-				'methods' => WP_REST_Server::READABLE,
-				'callback' => array($this, 'get_single_ionicon_svg'),
-				'permission_callback' => '__return_true'
+				array(
+					'methods' => WP_REST_Server::READABLE,
+					'callback' => array($this, 'get_single_ionicon_svg'),
+					'permission_callback' => function () {
+						return current_user_can('manage_options'); // Adjust capability as needed
+					}
+				)
 			)
-		)
 		);
 
-		register_rest_route($this->namespace, '/' . $this->base3, array(
+		register_rest_route(
+			$this->namespace,
+			'/' . $this->base3,
 			array(
-				'methods' => WP_REST_Server::READABLE,
-				'callback' => array($this, 'get_shape_dividers_svg'),
-				'permission_callback' => '__return_true',
+				array(
+					'methods' => WP_REST_Server::READABLE,
+					'callback' => array($this, 'get_shape_dividers_svg'),
+					'permission_callback' => function () {
+						return current_user_can('manage_options'); // Adjust capability as needed
+					}
+				)
 			)
-		)
 		);
 
-		register_rest_route($this->namespace, '/' . $this->base5, array(
-			'methods' => 'POST',
-			'callback' => array($this, 'update_setting_option'),
-			'permission_callback' => function () {
-				return current_user_can('manage_options'); // Adjust capability as needed
-			}
-		)
+		register_rest_route(
+			$this->namespace,
+			'/' . $this->base5,
+			array(
+				'methods' => 'POST',
+				'callback' => array($this, 'update_setting_option'),
+				'permission_callback' => function () {
+					return current_user_can('manage_options'); // Adjust capability as needed
+				}
+			)
 		);
 
 		register_rest_route($this->namespace, '/' . $this->base6, array(
@@ -132,43 +150,45 @@ class WpOpus_Routes
 	}
 
 	// update setting options
-	public function update_setting_option(WP_REST_Request $request) {
+	public function update_setting_option(WP_REST_Request $request)
+	{
 		$option_name = $request->get_param('option_name');
 		$option_value = $request->get_param('option_value');
-	
+
 		if (empty($option_name) || $option_value === null) {
 			return new WP_Error('missing_parameters', __('Option name and value are required', 'wpopus'), array('status' => 400));
 		}
-	
+
 		$result = update_option($option_name, $option_value);
-	
+
 		if ($result === false) {
 			return new WP_Error('update_failed', __('Failed to update option', 'wpopus'), array('status' => 500));
 		}
-	
+
 		return new WP_REST_Response($result, 200);
 	}
-	
+
 
 	// get setting options
-	public function get_setting_options(WP_REST_Request $request) {
+	public function get_setting_options(WP_REST_Request $request)
+	{
 		$option_names = $request->get_param('option_names');
 		$option_names = json_decode($option_names);
 
 		if (empty($option_names)) {
 			return new WP_Error('invalid_option_names', __('Invalid option names format', 'wpopus'), array('status' => 400));
 		}
-	
+
 		$return_data = array();
 		foreach ($option_names as $option_name) {
 			$data['name'] = $option_name;
 			$data['value'] = get_option($option_name, '');
-			array_push( $return_data, $data );
+			array_push($return_data, $data);
 		}
-	
+
 		return new WP_REST_Response($return_data, 200);
 	}
-	
+
 
 }
 

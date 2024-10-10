@@ -90,17 +90,10 @@ export default function Edit(props) {
 				if (blockElement) {
 					const slideElement = blockElement.querySelectorAll("swiper-slide");
 					if (slideElement) {
-						if ("center-mode" == attributes.options.layout) {
-							Array.from(slideElement).forEach((slide) => {
-								slide.style.opacity = attributes.options.inactiveOpacity;
-								slide.style.transform = `scaleY( ${attributes.options.inactiveScale} )`;
-							});
-						} else {
-							Array.from(slideElement).forEach((slide) => {
-								slide.style.opacity = 1;
-								slide.style.transform = 1;
-							});
-						}
+						Array.from(slideElement).forEach((slide) => {
+							slide.style.opacity = 1;
+							slide.style.transform = 1;
+						});
 					}
 					// Access shadow DOM
 					const shadow =

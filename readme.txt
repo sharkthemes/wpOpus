@@ -56,6 +56,11 @@ Build your WordPress site with wpOpus. Create stunning, dynamic websites effortl
 	
 	Ideal for both beginners and experienced developers, wpOpus provides intuitive blocks and flexible options to help you build stunning, dynamic websites with ease. Dive in and start exploring the possibilities today!
 
+== Copyright ==
+
+wpOpus WordPress Plugin, Copyright 2024, Shark Themes
+Link: https://github.com/sharkthemes/wpOpus
+
 == Installation ==
 	= Using The WordPress Dashboard =
 	* Navigate to the 'Add New' in the plugins dashboard
@@ -97,6 +102,7 @@ Build your WordPress site with wpOpus. Create stunning, dynamic websites effortl
 	* Updated readme file
 	* Updated Demo Import
 	* Fixed Breadcrumb block
+	* Fixed Dynamic Slider block
 	* Fixed prefixing
 	* Fixed escaping
 
