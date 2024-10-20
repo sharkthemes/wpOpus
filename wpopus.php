@@ -4,7 +4,8 @@
  * Description:       	Supercharge your WordPress site with wpOpus, featuring custom advanced Gutenberg blocks. Import pre-built templates, use one-click demo setup, and enjoy text-to-speech for audio content. Access unlimited Google Fonts, 1300+ icons, animations, hover effects, responsive visibility, infinite scroll, load more, and masonry layouts. Ideal for all skill levels, wpOpus makes creating dynamic websites easy and intuitive. Start exploring today!
  * Requires at least: 	6.1
  * Requires PHP:      	7.0
- * Version:           	1.0.1
+ * Tested up to: 		6.6.2
+ * Version:           	1.0.2
  * Author:            	wpOpus
  * License: 			GNU General Public License v3 or later
  * License URI: 		http://www.gnu.org/licenses/gpl-3.0.html

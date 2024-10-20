@@ -4,8 +4,8 @@ author: http://sharkthemes.com
 Tags: gutenberg, blocks, templates, demo import
 Requires PHP: 7.0
 Requires at least: 6.1
-Tested up to: 6.6.1
-Stable tag: 1.0.1
+Tested up to: 6.6.2
+Stable tag: 1.0.2
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -17,7 +17,7 @@ Build your WordPress site with wpOpus. Create stunning, dynamic websites effortl
 	wpOpus is a versatile WordPress plugin offering a robust collection of advanced Gutenberg blocks and features, designed to supercharge your website. Compatible with WordPress Full Site Editing, wpOpus empowers you to create the website you've always envisioned effortlessly.
 
 	=Key Features (Limited in Free Version & Full Access in Pro Version):=
-	* 24+ Advanced Custom Gutenberg Blocks
+		* 24+ Advanced Custom Gutenberg Blocks
 		* Advanced Query [Free][Limited]
 		* Advanced Accordion [Free]
 		* Advanced Button [Free]
@@ -81,8 +81,9 @@ Link: https://github.com/sharkthemes/wpOpus
 
 == Changelog ==
 
-	= 1.0.0 Aug 01 2024 =
-	* Initial release.
+	= 1.0.2 Oct 20 2024 =
+	* Fixed minor css design in icon picker block
+	* WordPress compatibility update
 
 	= 1.0.1 Oct 09 2024 =
 	* Added favourite option in Template Import
@@ -92,7 +93,14 @@ Link: https://github.com/sharkthemes/wpOpus
 	* Fixed prefixing
 	* Fixed escaping
 
+	= 1.0.0 Aug 01 2024 =
+	* Initial release.
+
 == Upgrade Notice ==
+
+	= 1.0.2 Oct 20 2024 =
+	* Fixed minor css design in icon picker block
+	* WordPress compatibility update
 
 	= 1.0.0 Aug 01 2024 =
 	* Initial release.

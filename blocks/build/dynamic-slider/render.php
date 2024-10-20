@@ -62,16 +62,16 @@ $break_points = [
 // Autoplay attributes
 $autoplay_attributes = '';
 if ($options['autoplay']) {
-	$autoplay_attributes = 'autoplay=true autoplay-pause-on-mouse-enter=true autoplay-delay=' . esc_attr($options['autoPlayDelay'] * 1000);
+	$autoplay_attributes = ' autoplay=true autoplay-pause-on-mouse-enter=true autoplay-delay=' . esc_attr($options['autoPlayDelay'] * 1000);
 }
 
 // Swiper attributes for pagination and navigation
 $swiper_attributes = '';
 if ($options['pagination']) {
-	$swiper_attributes .= 'pagination=true pagination-dynamic-bullets=true pagination-clickable=true pagination-type=bullets ';
+	$swiper_attributes .= ' pagination=true pagination-dynamic-bullets=true pagination-clickable=true pagination-type=bullets';
 }
 if ($options['navigation']) {
-	$swiper_attributes .= 'navigation=true ';
+	$swiper_attributes .= ' navigation=true';
 }
 
 // Query args based on content type

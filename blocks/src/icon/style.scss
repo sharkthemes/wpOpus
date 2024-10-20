@@ -12,12 +12,17 @@ span.wpopus-icon svg {
     fill: currentColor;
 }
 span.wpopus-icon svg ellipse,
+span.wpopus-icon svg polygon,
 span.wpopus-icon svg polyline,
 span.wpopus-icon svg line,
 span.wpopus-icon svg rect,
 span.wpopus-icon svg circle,
-span.wpopus-icon svg path {
-    stroke: currentColor !important; 
+span.wpopus-icon svg path,
+span.wpopus-icon svg text,
+span.wpopus-icon svg use,
+span.wpopus-icon svg g,
+span.wpopus-icon svg image {
+    stroke: currentColor !important;
 }
 .wp-block-wpopus-icon {
     width: max-content;
